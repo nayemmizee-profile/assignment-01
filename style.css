@@ -188,7 +188,7 @@ ul a{
     border-radius: 15px;
     padding: 20px 25px;
      border: 1px solid rgb(204, 201, 201);
-     transition: 1s ease-in-out;
+     transition: 1s ease;
 }
 .spots-card:hover{
     background-color: #e9e5f6;
@@ -210,7 +210,7 @@ ul a{
 }
 .spots-card-2:hover{
     background-color: #052240;
-    transform: scale(1.05);
+    transform: scale(1.1);
     filter: opacity(90%);
 }
 
@@ -292,3 +292,118 @@ ul a{
 /* AI-section-started */
 
 
+.bg-color{
+    background-color: rgba(168, 174, 141, 0.619);
+}
+
+
+.AI-helped{
+    
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.AI-helped h1{
+    text-align: center;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    padding: 10px 0px 0px 0px;
+}
+.AI-helped p{
+     text-align: center;
+     font-size: clamp(0.6rem, 3vw, 1rem);  
+}
+
+/* title-end-here */
+/* title-end-here */
+/* title-end-here */
+
+
+
+.schedule-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 20px 100px;
+    align-items: center;
+    justify-items: center;
+    width: auto;
+    gap: 20px;
+    color: white;
+   
+
+}
+
+.day-time{
+    display: flex;
+    flex-direction: column;
+    background-color: #0F172A;
+    width: 80%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px 30px;
+    
+    
+}
+.day-time:hover{
+    background-color: #052240;
+}
+.day-time h1{
+    font-size: clamp(1rem, 4vw, 2.5vw);
+}
+.day-time p{
+    font-size: clamp(0.5rem, 3vw, 1rem);
+}
+
+/* end */
+/* end */
+
+/* box-container */
+/* box-container */
+/* box-container */
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     align-items: center;
+    justify-items: center;
+    padding: 20px 100px;
+    width: auto;
+    gap: 10px;
+    color: white;
+    margin-top: 0%;
+}
+
+
+
+.schedule-container-box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E293B;
+    border-radius: 12px;
+    padding: 0px 0px;
+    
+}
+
+.schedule-container-box:hover{
+    background-color: #334155;
+}
+
+
+
+/* footer */
+/* footer */
+/* footer */
+
+footer{
+    display: flex;
+    background-color: #0D1B2A;
+    width: 100%;
+    height: 80px;
+    margin-top: 3px;
+}
