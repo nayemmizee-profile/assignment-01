@@ -22,7 +22,7 @@ header {
 
 .nav-bar ul{
     display: flex;
-    gap: 10px;
+    gap: 18px;
     list-style: none;
 }
 ul a{
@@ -188,6 +188,12 @@ ul a{
     border-radius: 15px;
     padding: 20px 25px;
      border: 1px solid rgb(204, 201, 201);
+     transition: 1s ease-in-out;
+}
+.spots-card:hover{
+    background-color: #e9e5f6;
+    transform: scale(1.05);
+    filter: opacity(90%);
 }
 
 .spots-card h1, .spots-card-2 h1 {
@@ -199,13 +205,19 @@ ul a{
     color: #FFFFFF;
     border-radius: 15px;
     padding: 18px 25px;
-     border: 1px solid #90acf9;
+     border: 1px solid #062f5a;
+     transition: 1s ease;
+}
+.spots-card-2:hover{
+    background-color: #052240;
+    transform: scale(1.05);
+    filter: opacity(90%);
 }
 
 /* spots-cards-grid-end */
 
 
-.spots-card-2 ul, .spots-card ul{
+.spots-card-2 ul,.spots-card ul{
     padding: 20px 20px;
 }
 
@@ -245,7 +257,12 @@ ul a{
     border-radius:10px;
     background:#e7ecf6;
     color:rgb(21, 10, 238);
+    transition: 1s;
     
+}
+.spots-card-2 button:hover{
+    cursor: pointer;
+    background-color: #cbd6f4;
 }
 
 .spots-card button{
@@ -256,5 +273,22 @@ ul a{
     border-radius:10px;
     background:#2563EB;
     color:white;
+    transition: 1s;
 }
+.spots-card button:hover{
+    cursor: pointer;
+    background-color: #698ff5;
+}
+
+/* spot-card-end */
+/* spot-card-end */
+/* spot-card-end */
+/* spot-card-end */
+
+
+/* AI-section-started */
+/* AI-section-started */
+/* AI-section-started */
+/* AI-section-started */
+
 
