@@ -120,14 +120,141 @@ ul a{
 .card-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 10px 0px;
+    gap: 30px 30px;
     align-items: center;
     justify-content: center;
+    padding: 0px 100px 100px 100px;
+    
 }
 
 .card-container .card{
-    padding: 0px 100px 60px 100px;
+    border-radius: 15px;
+     overflow:hidden;
+    background-color: #ececec;
 }
 .card-container .card img{
     width: 100%;
+    /* border-radius: 10px; */
 }
+.card .p-1{
+    color: #1D4ED8;
+    font-weight: 500;
+}
+
+.card h2,p{
+    padding: 4px 12px;
+}
+.card .p-2{
+   padding: 5px 0px 20px 12px;
+}
+
+/* grid-end */
+/* grid-end */
+/* grid-end */
+/* grid-end */
+
+
+/* spot-card-start */
+/* spot-card-start */
+/* spot-card-start */
+/* spot-card-start */
+
+
+.spot h1{
+    text-align: center;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+.spot p{
+    text-align: center;
+    font-size: clamp(0.5rem, 4vw, 1rem);
+    color: #6d6c6c;
+    padding: 5px 10px 20px 10px;
+}
+
+/* spot-title-end */
+
+
+.spot-card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px 15px;
+    height: 470px;
+    padding: 40px 20%;
+    
+}
+.spots-card{
+    display: grid;
+    background-color: #f6f2f2;
+    border-radius: 15px;
+    padding: 20px 25px;
+     border: 1px solid rgb(204, 201, 201);
+}
+
+.spots-card h1, .spots-card-2 h1 {
+    margin: 0px;
+}
+.spots-card-2{
+    display: grid;
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 18px 25px;
+     border: 1px solid #90acf9;
+}
+
+/* spots-cards-grid-end */
+
+
+.spots-card-2 ul, .spots-card ul{
+    padding: 20px 20px;
+}
+
+
+.spots-card-2 .p-2 {
+    padding: 0px 0px;
+    color: #114cee;
+}
+.spots-card .p-1 {
+    padding: 0px 0px;
+    color: #bbbaba;
+}
+.spots-card .p-3 {
+    padding: 0px 0px;
+    color: #bbbaba;
+}
+
+/* spots-card-p-end */
+
+
+.spots-card hr, .spots-card-2 hr{
+    margin-top: 10px;
+    border: none;
+    height: 1px;
+    background-color: #d6d6d6;
+}
+
+/* spots-card-hr-end */
+
+
+
+.spots-card-2 button{
+     width: 80%;
+    margin:auto auto 0px auto;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    background:#e7ecf6;
+    color:rgb(21, 10, 238);
+    
+}
+
+.spots-card button{
+    width:80%;
+    margin: auto auto 0 auto;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    background:#2563EB;
+    color:white;
+}
+
